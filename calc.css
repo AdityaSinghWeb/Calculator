@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(248, 246, 246);
+}
+
+h1 {
+  margin-top: 18px;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#contain {
+  width: 501px;
+  height: 541px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 20px;
+  background: white;
+}
+
+#display {
+  width: 88%;
+  height: 12%;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 16px;
+  font-weight: bold;
+  font-size: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 16px;
+  width: 88%;
+  margin: auto;
+  height: 81%;
+  margin-top: 16px;
+}
+
+#keys > div:hover {
+  cursor: pointer;
+}
+
+#keys > div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 21px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.bgclr {
+  background-color: #1656ff;
+  color: white;
+}
+
+.keyclr {
+  background-color: rgb(248, 246, 246);
+}
+
+.keyclr {
+  background-color: black;
+  color: white;
+}

@@ -1,7 +1,9 @@
 for (let i = 0; i < document.querySelectorAll("#keys>div").length; i++) {
   document.querySelectorAll("#keys>div")[i].addEventListener("click", cal);
 }
+
 let storage = "";
+
 function cal(event) {
   let keytext = event.target.innerText;
   if (keytext == "C") {
